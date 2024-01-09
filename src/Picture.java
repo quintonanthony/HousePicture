@@ -34,7 +34,7 @@ public class Picture
             wall.changeSize(120);
             wall.makeVisible();
 
-            window.changeColor("yellow");
+            window.changeColor("black");
             window.moveHorizontal(-120);
             window.moveVertical(40);
             window.changeSize(40);
