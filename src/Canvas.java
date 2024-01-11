@@ -125,13 +125,19 @@ public class Canvas
             graphic.setColor(new Color(255, 230, 0));
         }
         else if(colorString.equals("green")) {
-            graphic.setColor(new Color(80, 160, 60));
+            graphic.setColor(new Color(66, 117, 79));
         }
         else if(colorString.equals("magenta")) {
             graphic.setColor(Color.magenta);
         }
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
+        }
+        else if(colorString.equals("aBlue")) {
+            graphic.setColor(new Color(14, 70, 122));
+        }
+        else if(colorString.equals("skyBlue")) {
+            graphic.setColor(new Color(52, 134, 145));
         }
         else {
             graphic.setColor(Color.black);
