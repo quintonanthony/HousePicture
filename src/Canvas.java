@@ -139,6 +139,13 @@ public class Canvas
         else if(colorString.equals("skyBlue")) {
             graphic.setColor(new Color(52, 134, 145));
         }
+        else if(colorString.equals("lavendar")) {
+            graphic.setColor(new Color(124, 81, 138));
+        }
+        else if(colorString.equals("brown")) {
+            graphic.setColor(new Color(89, 66, 51));
+        }
+
         else {
             graphic.setColor(Color.black);
         }
